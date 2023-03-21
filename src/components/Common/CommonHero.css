@@ -1,0 +1,42 @@
+.commonHero {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: 80vh;
+    position: relative;
+}
+
+.commonHero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../../assets/developerImage.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.commonHero__heading-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.commonHero__heading {
+    font-size: 2.4rem;
+}
+
+.commonHero__paragraph {
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 640px) {
+    .commonHero__heading {
+        font-size: 2rem;
+    }
+}
