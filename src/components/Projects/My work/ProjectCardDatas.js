@@ -21,7 +21,7 @@ const ProjectCardDatas = [
   {
     imgsrc: Img3,
     title: "Dark Theme",
-    text: "This task is simple HTML Project with Dark theme mode",
+    text: "This task is simple HTML Project with Dark theme mode. It is done with Javascript",
     view: "https://sachu29.github.io/Dark-theme/",
     source: "https://github.com/sachu29/Dark-theme",
   },

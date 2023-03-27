@@ -10,7 +10,7 @@ const AboutHero = () => {
       <div className="about__left">
         <h1>Who Am I?</h1>
         <p>
-          I'm a react frontend developer. I create responsive secure websites
+          I'm a Frontend developer. I create responsive secure websites
           for my clients.
         </p>
         <Link to="/contact">

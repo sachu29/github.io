@@ -1,3 +1,7 @@
+.contact-info {
+    text-align: center;
+    padding: 3rem;
+}
 
 .form::after {
     content: "";
@@ -11,7 +15,10 @@
     left: 0;
     z-index: -1;
 }
-label{
+
+/* Commenting input tags */
+
+/* label{
     color: #fff;
     margin-bottom: 0.5rem;
 }
@@ -30,4 +37,4 @@ form input, form textarea {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.1);
     color: #f4f4f4;
-}
+} */

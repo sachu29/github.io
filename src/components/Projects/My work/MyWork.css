@@ -29,10 +29,19 @@
     padding: 0 1rem 5rem;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
     .project__container {
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
     }
 }
+
+/* @media screen and ( min-width: 860px) {
+    .project__container {
+        width: 100%;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+} */
