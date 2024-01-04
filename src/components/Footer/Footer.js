@@ -29,53 +29,62 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
-              <a href="tel:8668045733">8668045733</a>
+              <a href="tel:7598029471">7598029471</a>
             </li>
             <li className="location__home">
               <FaMailBulk
                 size={20}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
-              <a href="mailto:sachusaran@gamil.com" >sachusaran@gamil.com</a>
+              <a href="mailto:saranms2905@gamil.com">saranms2905@gamil.com</a>
             </li>
           </ul>
         </div>
         <div className="footer-container__right">
-          <h4 className="right__heading" style={{marginBottom: "15px"}}>Catch me <span style={{color: "rgb(248, 217, 15)", fontSize:'1.3rem'}}>@</span></h4>
-          <p>
-            You can follow me on these social media's.
-          </p>
+          <h4 className="right__heading" style={{ marginBottom: "15px" }}>
+            Catch me{" "}
+            <span style={{ color: "rgb(248, 217, 15)", fontSize: "1.3rem" }}>
+              @
+            </span>
+          </h4>
+          <p>You can follow me on these social media's.</p>
           <ul className="social-media">
             <li className="social-media__instagram">
               <Link target={"_top"} to={"/"}>
-              <FaInstagram
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
+                <FaInstagram
+                  size={30}
+                  style={{ color: "#fff", marginRight: "1rem" }}
+                />
               </Link>
             </li>
             <li className="social-media__linkedin">
-              <Link target={"_blank"} to={"https://www.linkedin.com/in/saran-m-s-17004725a/"}>
-              <FaLinkedin
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
+              <Link
+                target={"_blank"}
+                to={"https://www.linkedin.com/in/saran-m-s-17004725a/"}
+              >
+                <FaLinkedin
+                  size={30}
+                  style={{ color: "#fff", marginRight: "1rem" }}
+                />
               </Link>
             </li>
             <li className="social-media__github">
-              <Link target={"_blank"} to={"https://github.com/sachu29"} ><FaGithub
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              /></Link>
+              <Link target={"_blank"} to={"https://github.com/sachu29"}>
+                <FaGithub
+                  size={30}
+                  style={{ color: "#fff", marginRight: "1rem" }}
+                />
+              </Link>
             </li>
           </ul>
         </div>
       </div>
       <div className="footer-container__copyrights">
-          <h2 className="copyrights">
-            All copyrights reserved <span style={{color: "rgb(248, 217, 15)"}}>&copy;</span> 2023
-          </h2>
-        </div>
+        <h2 className="copyrights">
+          All copyrights reserved{" "}
+          <span style={{ color: "rgb(248, 217, 15)" }}>&copy;</span> 2023
+        </h2>
+      </div>
     </div>
   );
 };
