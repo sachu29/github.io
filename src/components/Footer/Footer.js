@@ -12,6 +12,9 @@ import "./Footer.css";
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  let d = new Date()
+  let currentYear = d.getFullYear()
+
   return (
     <div className="footer">
       <div className="footer-container">
@@ -82,7 +85,7 @@ const Footer = () => {
       <div className="footer-container__copyrights">
         <h2 className="copyrights">
           All copyrights reserved{" "}
-          <span style={{ color: "rgb(248, 217, 15)" }}>&copy;</span> 2023
+          <span style={{ color: "rgb(248, 217, 15)" }}>&copy;</span> {currentYear}
         </h2>
       </div>
     </div>

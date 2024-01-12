@@ -10,9 +10,9 @@ const Hero = () => {
         <img className="heroImg" src={HeroImg} alt="HeroImg" />
       </div>
       <div className="hero-content">
-        <h1 className="hero-content__heading">Frontend Developer</h1>
+        <h1 className="hero-content__heading">Python Developer</h1>
         <p className="hero-content__description">
-          “ I'm a self taught Developer, who is always excited to do creative
+          “ I'm a self taught Developer,I'm a guy who is always excited to do creative
           works. Nowadays my coding life becomes Learning in Loop, Storing
           memories in variables and Executing actions as functions . I believe
           that everyday is a new learning experience. I'm a well organized and

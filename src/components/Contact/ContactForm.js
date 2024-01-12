@@ -24,9 +24,16 @@ const ContactForm = () => {
       {/* Commented for future use */}
 
       <div className="contact-info">
-        <p> To discuss more reach me <span style={{color: 'rgb(248, 217, 15)'}}>@</span> <span> <a href="mailto:sachusaran29.94@gmail.com">Sachusaran29.94@gamil.com</a></span></p>
+        <p>
+          {" "}
+          To discuss more reach me{" "}
+          <span style={{ color: "rgb(248, 217, 15)" }}>@</span>{" "}
+          <span>
+            {" "}
+            <a href="mailto:saranms2905@gmail.com">Saranms2905@gmail.com</a>
+          </span>
+        </p>
       </div>
-
     </div>
   );
 };

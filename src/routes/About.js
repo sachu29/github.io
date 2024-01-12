@@ -4,7 +4,7 @@ import AboutHero from "./../components/About/AboutHero";
 const About = () => {
   return (
     <div>
-      <CommonHero heading="About Me" paragraph="I'm a Frontend developer" />
+      <CommonHero heading="About Me" paragraph="I'm a Python developer" />
       <AboutHero />
     </div>
   );
