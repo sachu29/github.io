@@ -63,7 +63,7 @@ const Footer = () => {
             <li className="social-media__linkedin">
               <Link
                 target={"_blank"}
-                to={"https://www.linkedin.com/in/saran-ms-9789692a7/"}
+                to={""}
               >
                 <FaLinkedin
                   size={30}
