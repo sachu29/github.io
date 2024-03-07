@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactForm.css";
+import Details from "../Data/Data";
 const ContactForm = () => {
   return (
     <div className="form">
@@ -30,7 +31,7 @@ const ContactForm = () => {
           <span style={{ color: "rgb(248, 217, 15)" }}>@</span>{" "}
           <span>
             {" "}
-            <a href="mailto:saranms2905@gmail.com">Saranms2905@gmail.com</a>
+            <a href={`mailto:${Details[0].MailId}`}>{Details[0].MailId}</a>
           </span>
         </p>
       </div>
