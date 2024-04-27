@@ -3,6 +3,7 @@ import "./AboutHero.css";
 import { Link } from "react-router-dom";
 import ReactBg1 from "../../assets/ReactBg2.jpg";
 import ReactBg2 from "../../assets/ReactBg1.jpg";
+import data from '../Data/Data'
 
 const AboutHero = () => {
   return (
@@ -10,7 +11,7 @@ const AboutHero = () => {
       <div className="about__left">
         <h1>Who Am I?</h1>
         <p>
-          I'm a Python developer. I create responsive secure websites
+          I'm a {data[0].developer}. I create responsive secure websites
           for my clients.
         </p>
         <Link to="/contact">
